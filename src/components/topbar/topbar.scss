@@ -1,0 +1,59 @@
+.topbar {
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+    .left {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+
+    .logo {
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .log {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            color: yellow;
+           
+        }
+    }
+
+    .right {
+        display: flex;
+        margin-right: 130px;
+        
+
+        ul {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+            color: white;
+            align-items: center;
+           
+
+            li {
+                color: white;
+               
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    
+                }
+            }
+        }
+        
+    }
+}
