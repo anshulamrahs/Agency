@@ -5,6 +5,8 @@
     display: flex;
     color: white;
     justify-content: space-between;
+    position: fixed;
+    z-index: 99;
 
     .left {
         font-size: 18px;
