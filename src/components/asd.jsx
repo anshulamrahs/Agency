@@ -7,3 +7,12 @@ const asd = () => {
 }
 
 export default asd
+import React from 'react'
+
+const ] = () => {
+  return (
+    <div>]</div>
+  )
+}
+
+export default ]
