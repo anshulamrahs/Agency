@@ -4,7 +4,7 @@ import Sym from '../assets/sym.png'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about'id='about'>
       <div className="left">
         <img className='mgs' src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" alt='' />
       </div>

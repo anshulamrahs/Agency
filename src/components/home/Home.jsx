@@ -3,7 +3,7 @@ import './home.scss'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' id='home'>
       <div className="left">
         <span className='head'>Hi,How can we Help.?</span>
         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fuga minus odit exercitationem, assumenda nihil et dolorum aspernatur magnam necessitatibus explicabo ipsum repudiandae officia! Unde vero sint deserunt assumenda tempora.</span>

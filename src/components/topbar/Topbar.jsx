@@ -10,8 +10,8 @@ const Topbar = () => {
         <div className="right">
             <ul>
                 <li><a href='#home'>Home</a></li>
-                <li><a href='#home'>About</a></li>
-                <li><a href='#home'>Work</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#work'>Work</a></li>
                 <li><a href='#home'>Hire us!</a></li>
             </ul>
         </div>

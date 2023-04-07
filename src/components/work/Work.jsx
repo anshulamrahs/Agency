@@ -6,7 +6,7 @@ import WR2 from '../assets/wr2.jpeg'
 
 const Work = () => {
   return (
-    <div className='work'>
+    <div className='work'id='work'>
       <div className="card">
         <div className="left">
           <img className='img' src={WR} alt=""/>
