@@ -1,6 +1,6 @@
 .work {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     //justify-content: space-between;
     justify-content: center;
@@ -14,6 +14,7 @@
         flex-direction: row-reverse;
        
     }
+
     .card {
         width: 800px;
         height: 300px;
@@ -23,6 +24,7 @@
         display: flex;
         justify-content: space-between;
         border-radius: 20px;
+        margin-bottom: 40px;
         //align-items: center;
 
         .left {
@@ -36,10 +38,11 @@
                 height: 300px;
                 border-radius: 20px 0px 0px 20px;
 
-                .img2 {
-                border-radius: 20px;
-        }
+           
             }
+             .img2 {
+                border-radius: 0px 20px 20px 0px;
+        }
         }
 
         .right {
