@@ -4,24 +4,32 @@
     height: 100vh;
     flex-direction: column;
     justify-content: center;
+    background-color: black;
+    color: white;
 
     .cardHold {
         display: flex;
-        gap: 140px;
+        gap: 80px;
         justify-content: center;
         align-items: center;
-        padding: 80px 80px;
+        padding: 60px 60px;
+        
 
         .card {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            //gap: 5px;
     
             .log {
                 width: 50px;
                 height: 50px;
 
+            }
+
+            p {
+                width: 200px;
             }
         }
     }
