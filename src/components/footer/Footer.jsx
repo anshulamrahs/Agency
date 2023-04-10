@@ -3,6 +3,8 @@ import './footer.scss'
 
 export const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+      <span>Copyright by waveyhigh media</span>
+    </div>
   )
 }
