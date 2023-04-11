@@ -5,6 +5,7 @@ export const Footer = () => {
   return (
     <div className='footer'>
       <span>Copyright by waveyhigh media</span>
+      <span>Calls</span>
     </div>
   )
 }
