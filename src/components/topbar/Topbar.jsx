@@ -1,11 +1,12 @@
 import React from 'react'
 import './topbar.scss'
+import Core from '../assets/corebb.png'
 
 const Topbar = () => {
   return (
     <div className='topbar'>
         <div className="left">
-            <span className='logo'>Wave.</span><span className='log'>x</span>
+            <img src={Core} className='logo' alt=''/>
         </div>
         <div className="right">
             <ul>

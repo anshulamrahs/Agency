@@ -1,7 +1,7 @@
 .topbar {
     width: 100vw;
     height: 70px;
-    background-color: black;
+    background-color: #18212a;
     display: flex;
     color: white;
     justify-content: space-between;
@@ -16,10 +16,10 @@
         margin-left: 50px;
 
     .logo {
-        font-size: 28px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        
+        height: 280px;
+        width: 280px;
+        margin-top: 50px;
         }
         .log {
             font-size: 20px;
