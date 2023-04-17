@@ -1,5 +1,5 @@
 .topbar {
-    width: 100vw;
+    width: 60%;
     height: 70px;
     background-color: #18212a;
     display: flex;
@@ -13,7 +13,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
+        margin-left: 20px;
+        flex: 2;
+        flex-direction: column;
 
     .logo {
         
@@ -21,20 +23,18 @@
         width: 280px;
         margin-top: 50px;
         }
-        .log {
-            font-size: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 500;
-            color: yellow;
+        .for {
+            width: 100px;
            
         }
     }
 
     .right {
         display: flex;
-        margin-right: 130px;
+       font-weight: 500;
+        flex: 5;
+        margin-top: 40px;
+        margin-left: 15px;
         
 
         ul {
