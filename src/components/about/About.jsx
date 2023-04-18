@@ -1,27 +1,69 @@
 import React from 'react'
 import './about.scss'
-import Sym from '../assets/sym.png'
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import OR from '../assets/ocean.jpeg'
 
 const About = () => {
-  return (
-    <div className='about'id='about'>
-      <div className="left">
-        <img className='mgs' src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" alt='' />
-      </div>
-      <div className="right">
-        <h2>Hi. We are Wave.x</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores inventore doloribus quas fuga vero a, doloremque dignissimos architecto quibusdam explicabo. Exercitationem, qui! Facilis repudiandae exercitationem consequuntur voluptates dolore quia iste.</p>
-        <div className="img">
-          <img className='logo' src={Sym} alt=""/>
-          <img className='logo' src={Sym} alt=""/>
-          <img className='logo' src={Sym} alt=""/>
-          <img className='logo' src={Sym} alt=""/>
-          <img className='logo' src={Sym} alt=""/>
-          <img className='logo' src={Sym} alt=""/>
-        </div>
-      </div>
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+  return(
+    <div className="about">
+    <h1>WORK CATALOUGE</h1>
+    <Carousel responsive={responsive}>
+  <div className='drown'>
+    <div className="imgs">
+    <img src={OR} alt='' className='img' />
+    <OpenInNewIcon className='icon'/>
     </div>
-  )
+    <h5>Portfolio</h5>
+    <h3>Anshul's Portfolio</h3>
+  </div>
+  <div className='drown'>
+    <div className="imgs">
+    <img src={OR} alt='' className='img' />
+    <OpenInNewIcon className='icon'/>
+    </div>
+    <h5>Portfolio</h5>
+    <h3>Anshul's Portfolio</h3>
+  </div>
+  <div className='drown'>
+    <div className="imgs">
+    <img src={OR} alt='' className='img' />
+    <OpenInNewIcon className='icon'/>
+    </div>
+    <h5>Portfolio</h5>
+    <h3>Anshul's Portfolio</h3>
+  </div>
+  <div className='drown'>
+    <div className="imgs">
+    <img src={OR} alt='' className='img' />
+    <OpenInNewIcon className='icon'/>
+    </div>
+    <h5>Portfolio</h5>
+    <h3>Anshul's Portfolio</h3>
+  </div>
+</Carousel>;
+    </div>
+  );
 }
 
 export default About
