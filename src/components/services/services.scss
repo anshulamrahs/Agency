@@ -4,9 +4,56 @@
     height: 100vh;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #18212a;
     color: white;
 
+    h1 {
+        font-size: 62px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        
+        input {
+            background-color: #18212a;
+            border: none;
+            border-bottom: 1px solid white;
+            width: 60%;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        
+        }
+        input::placeholder {
+             color: rgb(235, 232, 232);
+             font-size: 17px;
+             padding-bottom: 20px;
+             
+         }
+
+        textarea {
+            background-color: #18212a;
+            border: none;
+            border-bottom: 1px solid white;
+            margin-bottom: 50px;
+            
+        }
+        textarea::placeholder {
+            color: rgb(211, 211, 211);
+            font-size: 17px;
+           // padding-bottom: 20px;
+        }
+
+        button {
+            padding: 13px 65px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
     .cardHold {
         display: flex;
         gap: 80px;
