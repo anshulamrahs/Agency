@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.scss';
-import TR from '../assets/sym.png'
+
 
 const Services = () => {
   return (

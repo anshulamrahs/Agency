@@ -8,17 +8,17 @@ export const Footer = () => {
   return (
     <div className='footer'>
       <div className="left">
-        <a href="">Products</a>
-        <a href="">About</a>
-        <a href="">Blog</a>
-        <a href="">Services</a>
-        <a href="">Jobs</a>
+        <a href="https://google.com">Products</a>
+        <a href="https://google.com">About</a>
+        <a href="https://google.com">Blog</a>
+        <a href="https://google.com">Services</a>
+        <a href="https://google.com">Jobs</a>
       </div>
       <span>Copyright© by CoreBrush Studios</span>
       <div className="right">
-        <a>Instagram <InstagramIcon className="icon"/></a>
-        <a>LinkedIN<LinkedInIcon className="icon"/></a>
-        
+        <a href="https://google.com">Instagram <InstagramIcon className="icon"/></a>
+        <a href="https://google.com">LinkedIN<LinkedInIcon className="icon"/></a>
+        <a href="https://google.com">Behance<AdUnitsIcon className="icon"/></a>
       
       </div>
     </div>
