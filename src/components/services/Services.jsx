@@ -1,16 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './services.scss';
+
+ const ground = {background: "#36495c", color: "white"}
+ const stuck = {background:"#fff"}
 
 
 const Services = () => {
+
+  const [color,setColor] = useState(stuck);
+
+ 
   return (
     <div className='services'>
         <h1>Get in Touch</h1>
         <form>
-          <input type='text' placeholder='Name'/>
+          <input type='text' placeholder='Name' />
           <input type='email' placeholder='Email Address'/>
           <textarea placeholder='Enquiry' cols='40'rows={6} ></textarea>
-          <button type='submit'>Send</button>
+          <button   className='btn' style={color}  onMouseEnter={()=> setColor(ground)} onMouseLeave={()=> setColor(stuck)} type='submit'>Send</button>
         </form>
 
     </div>
