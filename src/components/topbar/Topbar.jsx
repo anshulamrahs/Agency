@@ -1,6 +1,6 @@
 import React from 'react'
 import './topbar.scss'
-import Core from '../assets/corebb.png'
+import Core from '../assets/mb.png'
 
 const Topbar = () => {
   return (
