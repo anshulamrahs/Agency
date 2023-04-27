@@ -14,6 +14,7 @@ const Topbar = () => {
                 <li><a href='#about'>About</a></li>
                 <li><a href='#work'>Experience</a></li>
                 <li><a href='#home'>Hire us!</a></li>
+                <li><a href='#home'>Hire us!</a></li>
             </ul>
             </div>
     </div>
